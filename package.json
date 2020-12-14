@@ -1,0 +1,16 @@
+{
+  "name": "talk-template",
+  "version": "1.0.0",
+  "description": "reveal.js/pandoc template for my talks and lectures",
+  "main": "index.js",
+  "author": "Thomas Torsney-Weir <torsneyt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nord-highlightjs": "^0.1.0",
+    "reveal-helpbutton": "https://github.com/McShelby/reveal-helpbutton",
+    "reveal-pdfexport": "https://github.com/McShelby/reveal-pdfexport",
+    "reveal.js": "^4.1.0",
+    "reveal.js-menu": "^2.1.0",
+    "reveal.js-plugins": "https://github.com/rajgoel/reveal.js-plugins"
+  }
+}
