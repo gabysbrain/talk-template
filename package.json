@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Thomas Torsney-Weir <torsneyt@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "livereload -p 8000"
+  },
   "dependencies": {
     "nord-highlightjs": "^0.1.0",
     "reveal-helpbutton": "https://github.com/McShelby/reveal-helpbutton",
