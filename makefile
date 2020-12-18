@@ -6,7 +6,7 @@ BIBOPTS := --bibliography refs.bib --filter pandoc-citeproc
 
 all: index.html
 
-index.html: primer.md template.html refs.bib
+index.html: talk.md template.html refs.bib
 	pandoc -s -t revealjs $(PANOPTS) $(BIBOPTS) -o $@ $<
 
 clean:
